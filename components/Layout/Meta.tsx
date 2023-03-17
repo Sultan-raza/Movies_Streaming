@@ -10,7 +10,7 @@ interface MetaProps {
 const Meta: NextPage<MetaProps> = ({ title, description, image }) => {
   return (
     <Head>
-      <title>{title} | Dinesh Tamang</title>
+      <title>{title} | Sultan Raza</title>
       <meta name="title" content={title} />
       <meta name="description" content={description} />
       <meta property="image" content={image} />
